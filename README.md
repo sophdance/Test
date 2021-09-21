@@ -7,4 +7,9 @@ With CTE as (
       from emp
       )
 Delete from CTE where R_Sal = 2
+
+Select * from emp
       
+Update table emp
+set ename = 'Jane'
+where id = 5
